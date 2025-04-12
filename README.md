@@ -41,22 +41,21 @@ Gmail Gist AI is a smart email assistant that integrates directly with your Gmai
 git clone https://github.com/vanshika1006/Gmail-Gist-AI.git
 cd Gmail-Gist-AI
 
-cd email-writer
-./mvnw spring-boot:run
+--cd email-writer
+  ./mvnw spring-boot:run
 
-Add your api_key in application.properties file
-gemini.api.key=YOUR_API_KEY
+--Add your api_key in application.properties file
+  gemini.api.key=YOUR_API_KEY
 
-**Setting up the frontend(if needed)**
-cd email-writer-react-frontend
-npm install
-npm start
+--Setting up the frontend(if needed)
+  cd email-writer-react-frontend
+  npm install
+  npm start
 
-Setting up Chrome-Extension
-
-Go to chrome://extensions in your browser.
-Enable "Developer Mode"
-Click "Load Unpacked"
-Select the email-writer-extension folder
+--Setting up Chrome-Extension
+  Go to chrome://extensions in your browser.
+  Enable "Developer Mode"
+  Click "Load Unpacked"
+  Select the email-writer-extension folder
 
 Made with 💻 by Vanshika Chopra.
